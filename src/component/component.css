@@ -1,0 +1,78 @@
+body {
+    background-image: url("../assets/bg-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.pricing-section {
+    text-align: center;
+    background-image: url("../assets/pattern-circles.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.pricing-section h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c2e43;
+}
+
+.pricing-section p {
+    font-size: 1rem;
+    color: #7f7f90;
+}
+
+.pricing-container {
+    text-align: center;
+    border-radius: 8px;
+}
+
+.pricing-header span {
+    font-size: 1rem;
+    color: #7f7f90;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2c2e43;
+}
+
+.slider-container {
+    margin: 1rem 0;
+}
+
+.billing-toggle {
+    font-size: 0.875rem;
+    color: #7f7f90;
+}
+
+.discount {
+    color: #e67e22;
+}
+
+.list-unstyled li {
+    font-size: 0.875rem;
+    color: #7f7f90;
+}
+
+.trial-button {
+    padding: 0.8rem 1.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+}
+
+.trial-button:hover {
+    background-color: #1f2032;
+}
+
+.me-2 {
+    margin-right: 10px;
+}
